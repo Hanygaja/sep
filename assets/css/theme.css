@@ -8,6 +8,7 @@
 html {
 	scroll-behavior: smooth;
 }
+
 /* Titles */
 .wrap-title {
   margin-bottom: 40px;
@@ -1059,7 +1060,7 @@ input::-moz-placeholder {
 
 .section-default {
   position: relative;
-  padding-top: 110px;
+  padding-top: 85px;
   padding-bottom: 110px;
 }
 
@@ -1308,6 +1309,7 @@ body {
 
 .b-advantages-2__inner {
   padding-left: 50px;
+  text-align: center;
 }
 
 .b-advantages-2__name {
@@ -1323,6 +1325,7 @@ body {
   font-size: 13px;
   letter-spacing: -0.015em;
 }
+
 
 .b-advantages-2 {
   padding-top: 11px;
@@ -3166,6 +3169,10 @@ body {
   padding-left: 455px;
 }
 
+.b-type-b__text {
+  text-align: center;
+}
+
 .b-type-b__subtitle {
   margin-bottom: 15px;
 }
@@ -4338,3 +4345,16 @@ body {
 .no-br {
   white-space: nowrap;
 }
+
+.gallery-title {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.c-t{
+	text-align: center;
+}
+
+.logo__img {
+  height: 55px;
+} 
