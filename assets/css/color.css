@@ -58,6 +58,9 @@ a,
 .dash_title,
 .b-history-list__btn:hover {background-color: #252525;}
 
+.sha {
+    background-color: #252525;
+}
 
 .bg-border,
 .dropcap_primary:first-letter {border-color: #252525;}

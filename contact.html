@@ -46,7 +46,7 @@
             <div class="row">
               <div class="col-xs-12">
                 <ul class="social-net list-inline">
-                  <li class="social-net__item"><a href="facebook.com" target="_blank" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li>
+                  <!-- <li class="social-net__item"><a href="facebook.com" target="_blank" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li> -->
                   <li class="social-net__item"><a href="https://www.linkedin.com/company/security-side-ltd/" target="_blank" class="social-net__link"><i class="icon fa fa-linkedin"></i></a></li>
                 </ul>
                 <!-- end social-list-->
@@ -111,7 +111,7 @@
             <div class="row">
               <div class="col-sm-7">
                 <h1 class="b-title-page">Contact Us</h1>
-                <div class="b-title-page__info">The approved contractor of Septimius Security services, providing high quality security services to many International organizations &amp; Private companies and Diplomatic delegations</div>
+                <!-- <div class="b-title-page__info">The approved contractor of Septimius Security services, providing high quality security services to many International organizations &amp; Private companies and Diplomatic delegations</div> -->
                 <!-- end b-title-page-->
               </div>
               <div class="col-sm-5">
@@ -138,28 +138,31 @@
             <div class="col-sm-3">
               <div class="b-contacts"><i class="b-contacts__icon pe-7s-flag"></i>
                 <div class="b-contacts__name color-primary">GLOBAL HEADQUARTERS</div>
-                <div class="b-contacts__contacts">2 Greenhills, Tallaght, Dublin, Ireland</div>
+                <div class="b-contacts__contacts">2 Greenhills, Tallaght, Dublin, Ireland.</div>
               </div>
               <!-- end b-contacts-->
             </div>
             <div class="col-sm-3">
               <div class="b-contacts"><i class="b-contacts__icon pe-7s-flag"></i>
                 <div class="b-contacts__name color-primary">LIBYA BRANCH</div>
-                <div class="b-contacts__contacts">Peacock Compound, Tajora, Tripoli, Libya</div>
+                <div class="b-contacts__contacts">Peacock Compound, Tajora, Tripoli, Libya.</div>
               </div>
               <!-- end b-contacts-->
             </div>
             <div class="col-sm-3">
               <div class="b-contacts"><i class="b-contacts__icon pe-7s-flag"></i>
                 <div class="b-contacts__name color-primary">TURKEY BRANCH</div>
-                <div class="b-contacts__contacts">Basaksehir, Istanbul, Turkey</div>
+                <div class="b-contacts__contacts">Basaksehir, Istanbul, Turkey.</div>
               </div>
               <!-- end b-contacts-->
             </div>
             <div class="col-sm-3">
               <div class="b-contacts"><i class="b-contacts__icon pe-7s-mail-open"></i>
-                <div class="b-contacts__name color-primary">email</div>
-                <div class="b-contacts__contacts">info@septimiussecurity.com</div>
+                <div class="b-contacts__name color-primary">emails</div>
+                <div class="b-contacts__contacts"><a href="mailto:info@septimiussecurity.com" style="color: black;">info@septimiussecurity.com</a></div>
+                <div class="b-contacts__contacts" style="padding: 5px 0;"><a href="mailto:Ireland@septimiussecurity.com" style="color: black;">Ireland@septimiussecurity.com</a></div>
+                <div class="b-contacts__contacts"><a href="mailto:Turkey@septimiussecurity.com" style="color: black;">Turkey@septimiussecurity.com</a></div>
+                <div class="b-contacts__contacts" style="padding: 5px 0 0 0"><a href="mailto:Libya@septimiussecurity.com"  style="color: black;">Libya@septimiussecurity.com</a></div>
               </div>
               <!-- end b-contacts-->
             </div>
@@ -173,25 +176,27 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <form action="#" method="post" class="ui-form ui-form-2">
+              <form id="reset" class="ui-form ui-form-2">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="row">
                       <div class="col-md-6">
-                        <input type="text" placeholder="Name" class="form-control">
-                        <input type="email" placeholder="Email" class="form-control">
+                        <input type="text" name="name" placeholder="Name" class="form-control">
+                        <input type="email" name="email" placeholder="Email" class="form-control">
                       </div>
                       <div class="col-md-6">
-                        <input type="tel" placeholder="Phone" class="form-control">
-                        <input type="text" placeholder="Subject" class="form-control">
+                        <input type="tel" name="phone" placeholder="Phone" class="form-control">
+                        <input type="text" name="subject" placeholder="Subject" class="form-control">
                       </div>
                     </div>
-                    <button class="ui-form__btn btn btn-primary btn-sm btn-effect btn-block">send the message</button>
+                    <button type="submit" class="ui-form__btn btn btn-primary btn-sm btn-effect btn-block">send the message</button>
                   </div>
                   <div class="col-md-6">
-                    <textarea rows="7" placeholder="Comments" class="form-control"></textarea>
+                    <textarea rows="7" name="message" placeholder="Message" class="form-control"></textarea>
                   </div>
+                  
                 </div>
+                <div id="msg"></div>
               </form>
             </div>
           </div>
@@ -204,7 +209,7 @@
             <h2 class="b-container-without-1__title">Are you Interested in Working with Us!</h2>
             <div class="b-container-without-1__text">
               <p>Join our team &amp; start your career at Septimius Security. It’s our mission to always recruit the Best Security Personals to join our team!</p>
-            </div><a href="contact.html" class="b-container-without-1__btn btn btn-primary btn-effect">send us your cv</a>
+            </div><a href="mailto:info@septimiussecurity.com" class="b-container-without-1__btn btn btn-primary btn-effect">send us your cv</a>
           </div>
           <!-- end b-container-without-1-->
         </div>
@@ -233,15 +238,16 @@
               <div class="row">
                 <div class="col-sm-7">
                   <div class="footer-main-section footer-main-section_left">
-                    <div class="footer__contact">E: info@septimiussecurity.com</div>
-                    <div class="footer__contact">2 Greenhills Bungalows, Tallaght, Dublin, Ireland</div>
+                    <!-- <div class="footer__contact">E: info@septimiussecurity.com</div> -->
+                    <div class="footer__contact">Greenogue Business Park,</div>
+                    <div class="footer__contact">Rathcoole, Dublin, Ireland</div>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-xs-12">
                   <ul class="social-net list-inline">
-                    <li class="social-net__item"><a href="facebook.com" target="_blank" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li>
+                    <!-- <li class="social-net__item"><a href="facebook.com" target="_blank" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li> -->
                     <li class="social-net__item"><a href="https://www.linkedin.com/company/security-side-ltd/" target="_blank" class="social-net__link"><i class="icon fa fa-linkedin"></i></a></li>
                   </ul>
                   <!-- end social-list-->
@@ -283,3 +289,29 @@
     <script src="assets/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
   </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#reset").on("submit",function(e){
+      e.preventDefault();
+      $.ajax({
+        url:"process.php",
+        method:"post",
+        data:new FormData(this),
+        contentType:false,
+        cache:false,
+        processData:false,
+        beforeSend:function(){
+        $("#msg").html('<option>sending ... please wait</option>')
+        }, 
+        success:function(data){
+          $("#msg").html(data);
+          
+        }
+      });
+    
+    });
+  });
+
+</script>
