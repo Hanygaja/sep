@@ -16,12 +16,16 @@ html {
 /*320 x 480 (iPhone)*/
 
 @media (min-width:992px) and (max-width:1199px) {
+  
 }
 
 
 /*320 x 480 (iPhone)*/
 
 @media (max-width:1199px) {
+  .main-slider__title {
+    font-size: 30px;
+  }
 }
 
 

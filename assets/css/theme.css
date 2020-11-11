@@ -3500,7 +3500,8 @@ body {
 
 .footer .footer-main-section_left {
   padding-right: 15px;
-  text-align: right;
+  /* text-align: right; */
+  text-align: center;
 }
 
 .footer .footer-main-section_right {
