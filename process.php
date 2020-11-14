@@ -1,7 +1,7 @@
 <?php
 if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
 {
-$to      = 'hany@securityside.com';
+$to      = 'info@septimiussecurity.com';
 $from    = 'info@septimiussecurity.com';
 $email   = $_POST['email'];
 $subject = 'Received New Email';
